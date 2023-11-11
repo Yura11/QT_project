@@ -25,8 +25,9 @@ jobs:
       - name: Set up SonarQube
         uses: sonarsource/sonarqube-scan-action@v2
         with:
-          sonar-token: ${{ secrets.SONAR_TOKEN }}
-          sonar-host-url: ${{ secrets.SONAR_HOST_URL }}
+          entryPoint: sonar-scanner
+          args: -X
+          projectBaseDir: ./  # adjust this based on your project structure
 
       - name: Build and analyze
         run: |
