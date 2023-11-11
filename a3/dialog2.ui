@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog2</class>
+ <widget class="QDialog" name="Dialog2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>641</width>
+    <height>432</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+    background-color: #ADD8E6; /* Light Blue color code */
+    color: white;
+}</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>90</y>
+     <width>311</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    font-size: 16px; /* Set the font size */
+    padding: 5px; /* Add some padding for better spacing */
+    border: 2px solid #3498db; /* Border with a shade of blue color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f2f2f2; /* Background color */
+    color: #333; /* Text color */
+}
+
+QLineEdit:hover {
+    border-color: #FFA500; /* Change border color on hover (orange) */
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>170</y>
+     <width>311</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    font-size: 16px; /* Set the font size */
+    padding: 5px; /* Add some padding for better spacing */
+    border: 2px solid #3498db; /* Border with a shade of blue color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f2f2f2; /* Background color */
+    color: #333; /* Text color */
+}
+
+QLineEdit:hover {
+    border-color: #FFA500; /* Change border color on hover (orange) */
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 20px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: #FFFFFF; /* Text color (white) for good contrast on the background */
+    text-shadow: 1px 1px 2px #000000; /* Add a subtle text shadow */
+    background-color: #FF5733; /* Background color (a shade of orange) */
+    border: 1px solid #FF4500; /* Add a border for emphasis */
+    padding: 10px; /* Add some padding for better spacing */
+    border-radius: 5px; /* Optional for rounded corners */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>номер мобільного:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>170</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 20px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: #FFFFFF; /* Text color (white) for good contrast on the background */
+    text-shadow: 1px 1px 2px #000000; /* Add a subtle text shadow */
+    background-color: #FF5733; /* Background color (a shade of orange) */
+    border: 1px solid #FF4500; /* Add a border for emphasis */
+    padding: 10px; /* Add some padding for better spacing */
+    border-radius: 5px; /* Optional for rounded corners */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>              ім'я особи:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>10</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 18px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Text color (white) for good contrast on a blue background */
+    background-color: #3498db; /* Background color (blue) */
+    padding: 10px; /* Add padding for better spacing */
+}</string>
+   </property>
+   <property name="text">
+    <string>Введіть контактні дані!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>300</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    font-size: 21px; /* Set the font size */
+    padding: 10px 20px; /* Add padding for button size */
+    background-color: #FF5733; /* Button background color (a shade of orange) */
+    color: #FFFFFF; /* Text color (white) */
+    border: 2px solid #FF4500; /* Button border color (a shade of orange) */
+    border-radius: 5px; /* Rounded button corners */
+}
+
+QPushButton:hover {
+    background-color: #800080; /* Deep purple background on hover */
+    border: 2px solid #800080; /* Change border color to deep purple on hover */
+}
+
+QPushButton:pressed {
+    background-color: #3498db; /* Change background color when pressed (blue) */
+    border: 2px solid #1E6D88; /* Change border color when pressed */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>записатись</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>300</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    font-size: 21px; /* Set the font size */
+    padding: 10px 20px; /* Add padding for button size */
+    background-color: #FF5733; /* Button background color (a shade of orange) */
+    color: #FFFFFF; /* Text color (white) */
+    border: 2px solid #FF4500; /* Button border color (a shade of orange) */
+    border-radius: 5px; /* Rounded button corners */
+}
+
+QPushButton:hover {
+    background-color: #800080; /* Deep purple background on hover */
+    border: 2px solid #800080; /* Change border color to deep purple on hover */
+}
+
+QPushButton:pressed {
+    background-color: #3498db; /* Change background color when pressed (blue) */
+    border: 2px solid #1E6D88; /* Change border color when pressed */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>скасувати</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

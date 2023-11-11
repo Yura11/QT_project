@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>748</width>
+    <height>636</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background-color: #ADD8E6; /* Light Blue color code */
+    color: white;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>360</y>
+      <width>441</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox {
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 5px; /* Optional for rounded corners */
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 10px; /* Increased padding for better spacing */
+    font-size: 24px; /* Increased font size for a bigger title */
+    font-weight: bold; /* Make the text bold */
+    color: darkblue; /* Text color */
+    text-transform: uppercase; /* Convert the text to uppercase */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+    background-color: #F5A623; /* Background color for the title */
+    border: 2px solid #FFD700; /* Border color for the title */
+    border-radius: 5px; /* Optional for a rounded title */
+}
+</string>
+    </property>
+    <property name="title">
+     <string>Авторизуватись</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>90</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    font-size: 16px; /* Set the font size */
+    padding: 5px; /* Add some padding for better spacing */
+    border: 2px solid #3498db; /* Border with a shade of blue color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f2f2f2; /* Background color */
+    color: #333; /* Text color */
+}
+
+QLineEdit:hover {
+    border-color: #FFA500; /* Change border color on hover (orange) */
+}</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>40</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    font-size: 16px; /* Set the font size */
+    padding: 5px; /* Add some padding for better spacing */
+    border: 2px solid #3498db; /* Border with a shade of blue color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f2f2f2; /* Background color */
+    color: #333; /* Text color */
+}
+
+QLineEdit:hover {
+    border-color: #FFA500; /* Change border color on hover (orange) */
+}</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>50</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-size: 18px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: #3498db; /* Text color (blue) */
+    text-transform: uppercase; /* Convert the text to uppercase */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>ЛОГІН:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>100</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-size: 18px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: #3498db; /* Text color (blue) */
+    text-transform: uppercase; /* Convert the text to uppercase */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>ПАРОЛЬ:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>150</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    font-size: 16px; /* Set the font size */
+    padding: 10px 20px; /* Add padding for button size */
+    background-color: #FF5733; /* Button background color (a shade of orange) */
+    color: #FFFFFF; /* Text color (white) */
+    border: 2px solid #FF4500; /* Button border color (a shade of orange) */
+    border-radius: 5px; /* Rounded button corners */
+}
+
+QPushButton:hover {
+    background-color: #800080; /* Deep purple background on hover */
+    border: 2px solid #800080; /* Change border color to deep purple on hover */
+}
+QPushButton:pressed {
+    background-color: #3498db; /* Change background color when pressed (blue) */
+    border: 2px solid #1E6D88; /* Change border color when pressed */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>АВТОРИЗУВАТИСЬ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    font-size: 16px; /* Set the font size */
+    padding: 10px 20px; /* Add padding for button size */
+    background-color: #FF5733; /* Button background color (a shade of orange) */
+    color: #FFFFFF; /* Text color (white) */
+    border: 2px solid #FF4500; /* Button border color (a shade of orange) */
+    border-radius: 5px; /* Rounded button corners */
+}
+
+QPushButton:hover {
+    background-color: #800080; /* Deep purple background on hover */
+    border: 2px solid #800080; /* Change border color to deep purple on hover */
+}
+
+QPushButton:pressed {
+    background-color: #3498db; /* Change background color when pressed (blue) */
+    border: 2px solid #1E6D88; /* Change border color when pressed */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>ЗАРЕЄСТРУВАТИСЬ</string>
+     </property>
+    </widget>
+    <zorder>label_2</zorder>
+    <zorder>label</zorder>
+    <zorder>lineEdit</zorder>
+    <zorder>lineEdit_2</zorder>
+    <zorder>pushButton</zorder>
+    <zorder>pushButton_2</zorder>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>310</y>
+      <width>501</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 24px; /* Розмір шрифту */
+    font-weight: bold; /* Зробити текст жирним */
+    color: red; /* Колір тексту (синій) */
+    text-transform: uppercase; /* Перетворити текст у великі літери */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Додати тінь тексту */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>СПОРТИВНИЙ КЛУБ &quot;ГАЛИЦЬКІ ЛЕВИ&quot;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>10</y>
+      <width>549</width>
+      <height>293</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="Resources.qrc">:/photo/photos/borotb.v.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>groupBox</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_3</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>748</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Про програму</string>
+    </property>
+    <addaction name="action"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Про нас</string>
+    </property>
+    <addaction name="action_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Наші тренери</string>
+    </property>
+    <addaction name="action_3"/>
+    <addaction name="action_4"/>
+    <addaction name="action_5"/>
+    <addaction name="action_6"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>Допомога</string>
+    </property>
+    <addaction name="action_7"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>Про програму</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Галицькі Леви</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Валерій Рибін</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>Красовський Дмитро</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>Красовський Валерій</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Жирій Олег</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>Допомога</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

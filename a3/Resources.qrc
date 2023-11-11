@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/photo">
+        <file>photos/1316344-200 – копія.png</file>
+        <file>photos/1316344-200 (1).png</file>
+        <file>photos/1316344-200.png</file>
+        <file>photos/255163621_256762439763803_4571594237975404024_n.jpg</file>
+        <file>photos/borotb.v.jpg</file>
+        <file>photos/favicon.jpg</file>
+        <file>photos/images (1).jpg</file>
+        <file>photos/images (2).jpg</file>
+        <file>photos/images (3).jpg</file>
+        <file>photos/images (4).jpg</file>
+    </qresource>
+</RCC>

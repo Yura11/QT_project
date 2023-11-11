@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog1</class>
+ <widget class="QDialog" name="Dialog1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>820</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+    background-color: #ADD8E6; /* Light Blue color code */
+    color: white;
+}</string>
+  </property>
+  <widget class="QCalendarWidget" name="calendarWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>351</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCalendarWidget {
+    font-size: 20px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Text color (white) for good contrast on a blue background */
+    background-color: #3498db; /* Background color (blue) */
+    padding: 10px; /* Add padding for better spacing */
+}</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>70</y>
+     <width>351</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListWidget{
+    font-size: 20px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Text color (white) for good contrast on a blue background */
+    background-color: #3498db; /* Background color (blue) */
+    padding: 10px; /* Add padding for better spacing */
+   text-align: center;
+}
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>             Понеділок-П'ятниця</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>                      1.14:00;</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>                      2.16:30;</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>                      3.17:30.</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>                      Субота</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>                      1.11:00.</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>                      Неділя</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>                Вихідний день!</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>510</y>
+     <width>461</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 13px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Text color (white) for good contrast on a blue background */
+    background-color: #3498db; /* Background color (blue) */
+    padding: 10px; /* Add padding for better spacing */
+}</string>
+   </property>
+   <property name="text">
+    <string>Натисни на дату в календарі, щоб побачити розклад тренувань!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>330</y>
+     <width>201</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resources.qrc">:/photo/photos/1316344-200 – копія.png</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

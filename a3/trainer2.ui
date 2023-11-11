@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>trainer2</class>
+ <widget class="QDialog" name="trainer2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>633</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+    background-color: #ADD8E6; /* Light Blue color code */
+    color: white;
+}</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>20</y>
+     <width>131</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QDialogButtonBox {
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 5px; /* Optional for rounded corners */
+}
+
+QDialogButtonBox QPushButton {
+    background-color: #F5A623; /* Background color for the buttons */
+    border: 2px solid #FFD700; /* Border color for the buttons */
+    border-radius: 5px; /* Optional for rounded buttons */
+    padding: 5px 10px; /* Adjust padding for spacing */
+    margin: 5px; /* Add margin to separate buttons */
+    font-size: 16px; /* Adjust font size for button text */
+    color: darkblue; /* Text color for buttons */
+    text-transform: uppercase; /* Convert button text to uppercase */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+    transition: background-color 0.3s, border 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+}
+
+QDialogButtonBox QPushButton:hover {
+    background-color: #800080; /* Change button background color on hover (deep purple) */
+    border: 2px solid #800080; /* Change border color on hover (deep purple) */
+    color: white; /* Change text color to white on hover for better visibility */
+}
+</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>30</y>
+     <width>261</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resources.qrc">:/photo/photos/images (2).jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>521</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 13px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Text color (white) for good contrast on a blue background */
+    background-color: #3498db; /* Background color (blue) */
+    padding: 10px; /* Add padding for better spacing */
+}</string>
+   </property>
+   <property name="text">
+    <string>                                  Ім'я: Валерій Красовський</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>521</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 13px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Text color (white) for good contrast on a blue background */
+    background-color: #3498db; /* Background color (blue) */
+    padding: 10px; /* Add padding for better spacing */
+}</string>
+   </property>
+   <property name="text">
+    <string>             Досвід:  понад 20 років досвіду у вільній боротьбі </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>410</y>
+     <width>521</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 13px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Text color (white) for good contrast on a blue background */
+    background-color: #3498db; /* Background color (blue) */
+    padding: 10px; /* Add padding for better spacing */
+}</string>
+   </property>
+   <property name="text">
+    <string>Здобутки: заслужений тренер України, майстер спорту з вільної боротьби</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>trainer2</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>trainer2</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
