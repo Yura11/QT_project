@@ -13,6 +13,9 @@ jobs:
     name: Analysis
     runs-on: ubuntu-latest
 
+    env:
+      SONAR_HOST_URL: http://192.168.0.160:9000
+
     steps:
       - uses: actions/checkout@v2
 
@@ -28,8 +31,3 @@ jobs:
           entryPoint: sonar-scanner
           args: -X
           projectBaseDir: ./  # adjust this based on your project structure
-
-      - name: Build and analyze
-        run: |
-          qmake
-          make
