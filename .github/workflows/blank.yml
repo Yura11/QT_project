@@ -30,4 +30,4 @@ jobs:
         with:
           entryPoint: sonar-scanner
           args: -X
-          projectBaseDir: ./  # adjust this based on your project structure
+          projectBaseDir: ./a3
